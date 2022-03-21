@@ -1,8 +1,8 @@
 /*!
-  @file geiger.ino
+  @file RAK4631_DFRobot_Geiger.ino
   @brief Adapted from the DFRobot code for RAK4631
-  @copyright   Copyright (c) 2022 Kongduino
-  @licence     The MIT License (MIT)
+  @copyright Copyright (c) 2022 Kongduino
+  @licence The MIT License (MIT)
   @author Kongduino
   @version  V1.0
   @date  2022/03/21
