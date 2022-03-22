@@ -26,6 +26,15 @@ double lastRecord;
 
 void setup() {
   Serial.begin(115200);
+  time_t timeout = millis();
+  while (!Serial) {
+    if ((millis() - timeout) < 5000) {
+      delay(100);
+    } else {
+      break;
+    }
+  }
+  Serial.println("\nnStart");
   // Start measuring
   geiger.start();
   lastRecord = millis();
